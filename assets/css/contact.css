@@ -155,6 +155,7 @@ footer {
         }
 
         header{
+            position: static;
             float: none;
             width: 93.2%;
             text-align: center;
