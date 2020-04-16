@@ -166,6 +166,7 @@ footer {
 
     .wrapper{
         width: 960px;
+        margin-top: -58px;
     }
 
 
@@ -185,12 +186,16 @@ footer {
         margin-left: 550px;
     }
 
+    footer{
+        height: 5px;
+    }
+
 }
 
 @media screen and (max-width:768px){
      body{
-        margin: 30px;
-        padding: 20px;
+        margin: 20px;
+        padding: 10px;
         width: 700px;
         }
     
@@ -200,16 +205,21 @@ footer {
      }
      .wrapper{
          width: 700px;
+         /* margin-top: 2px; */
      }
 
      section{
         margin-left: -10px;
+     }
+     h3{
+         width: 190px;
      }
 
      h1{
         width: 90%;
         margin-left: 4px;
         margin-right: -2px;
+        margin-bottom: 50px;
          
      }
      
@@ -232,6 +242,50 @@ footer {
 }
 
      @media screen and (max-width:640px){
+        body{
+            margin: 10px;
+            padding: 5px;
+            width: 600px;
+        }
 
+        header{
+            float: none;
+            width: 93.2%;
+            text-align: center;
+        }
+    
+        ul{
+            float: none;
+            margin-top: 2px;
+            width: 96%;
+            margin-bottom: -10px;
+        }
+        li a{
+            margin-left: -10px;
+        }
+
+        h1{
+            width: 92%;
+            margin-top: -62px;
+        }
+
+        .wrapper{
+            width: 600px;
+            height: 790px;
+        }
+
+        footer{
+            height: -10px;
+            padding: 15px;
+
+        }
+
+        .RPS{
+            float: right;
+            margin-top: -25px;
+            margin-right: 265px;
+        }
 
      }
+
+        
